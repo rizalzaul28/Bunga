@@ -47,5 +47,20 @@ public class Main {
         System.out.println("Iklim             : " + fm.getIklim());
         System.out.println("Tanah             : " + fm.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fm.getHewan_penyerbuk());
+        
+        Bunga_Tulip ft = new Bunga_Tulip();
+
+        ft.setnama_ilmiah("Leontopolium alpinum");
+        ft.setWarna("Putih atau keperakan ditengahnya kuning");
+        ft.setIklim("Sejuk hingga dingin");
+        ft.setTanah("Berbatu");
+        ft.setHewan_penyerbuk("Lebah dan kupu-kupu");
+
+        System.out.println("\n\t\t\tBunga Tulip");
+        System.out.println("Nama Ilmiah       : " + ft.getnama_ilmiah());
+        System.out.println("Warna             : " + ft.getWarna());
+        System.out.println("Iklim             : " + ft.getIklim());
+        System.out.println("Tanah             : " + ft.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + ft.getHewan_penyerbuk());
     }
 }
