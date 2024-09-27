@@ -32,5 +32,20 @@ public class Main {
         System.out.println("Iklim             : " + fm.getIklim());
         System.out.println("Tanah             : " + fm.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fm.getHewan_penyerbuk());
+        
+        Bunga_Kamboja fk = new Bunga_Kamboja();
+
+        fm.setnama_ilmiah("Leontopolium alpinum");
+        fm.setWarna("Putih atau keperakan ditengahnya kuning");
+        fm.setIklim("Sejuk hingga dingin");
+        fm.setTanah("Berbatu");
+        fm.setHewan_penyerbuk("Lebah dan kupu-kupu");
+
+        System.out.println("\n\t\t\tBunga Kamboja");
+        System.out.println("Nama Ilmiah       : " + fm.getnama_ilmiah());
+        System.out.println("Warna             : " + fm.getWarna());
+        System.out.println("Iklim             : " + fm.getIklim());
+        System.out.println("Tanah             : " + fm.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + fm.getHewan_penyerbuk());
     }
 }
